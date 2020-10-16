@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="configs-service" />
+        <module name="application-service" />
+        <module name="dblogger-service" />
+        <module name="auth" />
+        <module name="discovery-service" />
+        <module name="gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="application-service" target="11" />
+      <module name="arquitetura-microservicos" target="1.5" />
+      <module name="auth" target="11" />
+      <module name="configs-service" target="11" />
+      <module name="dblogger-service" target="11" />
+      <module name="discovery-service" target="11" />
+      <module name="gateway" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="application-service" options="-parameters" />
+      <module name="auth" options="-parameters" />
+      <module name="configs-service" options="-parameters" />
+      <module name="dblogger-service" options="-parameters" />
+      <module name="discovery-service" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+    </option>
+  </component>
+</project>

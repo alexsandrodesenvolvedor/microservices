@@ -1,0 +1,35 @@
+spring.jpa.hibernate.ddl-auto: update
+
+server:
+  port: 8084
+  servlet:
+    context-path: /auth
+    
+spring:
+  application:
+    name: auth
+  jmx:
+    enabled: false
+  datasource:
+    url: jdbc:postgresql://localhost:5332/auth
+    username: auth
+    password: 12345678
+
+    testWhileIdle: true
+    validationQuery: SELECT 1
+    
+security:
+  jwt:
+    token: 
+      secret-key: chave_microservices
+      expire-length: 3600000
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    hostname: localhost
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8081/eureka}

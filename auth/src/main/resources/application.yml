@@ -1,6 +1,9 @@
 spring.jpa.hibernate.ddl-auto: update
 
+
 server:
+  error:
+    include-stacktrace: never
   port: 8084
   servlet:
     context-path: /auth

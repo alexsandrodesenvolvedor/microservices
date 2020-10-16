@@ -1,0 +1,33 @@
+spring.jpa.hibernate.ddl-auto: update
+
+server:
+  port: 8083
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+  datasource:
+    url: jdbc:postgresql://localhost:35432/dblogger
+    username: dblogger
+    password: 12345678
+
+    testWhileIdle: true
+    validationQuery: SELECT 1
+
+  application:
+    name: dblogger-service
+
+security:
+  jwt:
+    token:
+      secret-key: chave_microservices
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8081/eureka}
+
+  instance:
+    prefer-ip-address: true

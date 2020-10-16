@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+  database:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: 12345678
+      POSTGRES_USER: dblogger
+      POSTGRES_DB: dblogger
+    ports:
+      - "35432:5432"
+    volumes:
+      - /usr/local/dados/PostgreSQL-dblogger-service:/var/lib/postgresql/data

@@ -1,13 +1,12 @@
 package com.arquitetura.auth.repository;
 
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
-
 import com.arquitetura.auth.model.User;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-@Repository
+import java.util.Optional;
+
 public interface UserRepository extends JpaRepository<User, Long>{
 
-	User findByUserName(String userName);
+	Optional<User> findByUserName(String userName);
 
 }

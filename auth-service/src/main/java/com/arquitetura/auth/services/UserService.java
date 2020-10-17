@@ -2,7 +2,6 @@ package com.arquitetura.auth.services;
 
 import com.arquitetura.auth.repository.UserRepository;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -31,10 +30,9 @@ public class UserService implements UserDetailsService {
         if (loginAttemptService.isBlocked(ip)) {
             throw new BadCredentialsException("blocked");
         }
-
         var user = userRepository.findByUserName(username);
-        if (user != null) {
-            return user;
+        if (user.isPresent()) {
+            return user.get();
         } else {
             throw new BadCredentialsException(" Username or password invalid");
         }

@@ -1,6 +1,5 @@
 spring.jpa.hibernate.ddl-auto: update
 
-
 server:
   error:
     include-stacktrace: never
@@ -10,7 +9,7 @@ server:
     
 spring:
   application:
-    name: auth
+    name: auth-service
   jmx:
     enabled: false
   datasource:

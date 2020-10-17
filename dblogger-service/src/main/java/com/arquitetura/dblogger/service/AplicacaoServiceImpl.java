@@ -2,15 +2,15 @@ package com.arquitetura.dblogger.service;
 
 import com.arquitetura.dblogger.model.Aplicacao;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import org.springframework.beans.factory.annotation.Autowired;
+import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 @Service
+@AllArgsConstructor
 public class AplicacaoServiceImpl implements AplicacaoService{
 
-    @Autowired
-    RestTemplate restTemplate;
+    private final RestTemplate restTemplate;
 
     @Override
     @HystrixCommand(fallbackMethod = "defaultAplicacao")

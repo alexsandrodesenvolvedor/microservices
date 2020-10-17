@@ -8,7 +8,7 @@ import javax.persistence.*;
 @Data
 @Entity
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-@Table(name = "APLICACAO")
+@Table(name = "TB_APLICACAO", indexes = {@Index(name = "IDX_NOME",  columnList="NOME", unique = true)})
 public class Aplicacao {
 
     @Id
@@ -17,6 +17,7 @@ public class Aplicacao {
     private Long id;
 
     @EqualsAndHashCode.Include
+    @Column(name = "NOME", length = 25, nullable = false)
     private String nome;
 
 }

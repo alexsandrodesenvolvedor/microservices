@@ -19,8 +19,10 @@ public class Logger implements Serializable {
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_LOGGER")
     @SequenceGenerator(name = "SEQ_LOGGER", sequenceName = "SEQ_LOGGER", allocationSize = 1)
     private Long id;
+
     @JsonProperty("uri")
     private String uri;
+
     private String requisicao;
     private String resposta;
     private Long aplicacaoId;

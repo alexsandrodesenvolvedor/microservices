@@ -1,4 +1,4 @@
-package com.arquitetura.aplicacao.controller;
+package com.arquitetura.aplicacao.endpoint.controller;
 
 import com.arquitetura.aplicacao.model.Aplicacao;
 import com.arquitetura.aplicacao.repository.AplicacaoRepository;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AplicacaoController {
 
-    private AplicacaoRepository aplicacaoRepository;
+    private final AplicacaoRepository aplicacaoRepository;
 
     @GetMapping(value = "/{aplicacaoId}")
     public Aplicacao findById(@PathVariable("aplicacaoId") Long aplicacaoId) {

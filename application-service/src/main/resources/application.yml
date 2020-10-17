@@ -2,6 +2,8 @@ spring.jpa.hibernate.ddl-auto: update
 
 server:
   port: 8082
+  servlet:
+    context-path: /application
 spring:
   main:
     allow-bean-definition-overriding: true

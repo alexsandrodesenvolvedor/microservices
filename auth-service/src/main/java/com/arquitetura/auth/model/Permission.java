@@ -1,11 +1,10 @@
 package com.arquitetura.auth.model;
 
-import java.io.Serializable;
+import lombok.Data;
+import org.springframework.security.core.GrantedAuthority;
 
 import javax.persistence.*;
-
-import lombok.*;
-import org.springframework.security.core.GrantedAuthority;
+import java.io.Serializable;
 
 @Data
 @Entity
@@ -19,7 +18,7 @@ public class Permission implements GrantedAuthority, Serializable {
 	@SequenceGenerator(name = "SEQ_PERMISSION", sequenceName = "SEQ_PERMISSION", allocationSize = 1)
 	private Long id;
 
-	@Column(name = "description", nullable = false)
+	@Column(name = "description", length = 20, nullable = false, unique = true)
 	private String description;
 
 	@Override

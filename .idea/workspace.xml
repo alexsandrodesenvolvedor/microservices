@@ -14,12 +14,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5476823d-d91c-44fa-bd98-5da163512abc" name="Default Changelist" comment="Submento discovery server">
-      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/arquitetura/auth/config/AuthenticationFailureListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/arquitetura/auth/config/AuthenticationFailureListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application-service/src/main/java/com/arquitetura/aplicacao/endpoint/controller/AplicacaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application-service/src/main/java/com/arquitetura/aplicacao/endpoint/controller/AplicacaoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application-service/src/main/java/com/arquitetura/aplicacao/model/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/application-service/src/main/java/com/arquitetura/aplicacao/model/Aplicacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/application-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/AuthServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/AuthServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/endpoint/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/endpoint/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/endpoint/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/endpoint/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/handle/RestResponseEntityExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/handle/RestResponseEntityExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/jwt/JwtConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/jwt/JwtConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/jwt/JwtTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/jwt/JwtTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/jwt/JwtTokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/jwt/JwtTokenProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/listner/AuthenticationSuccessEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/listner/AuthenticationSuccessEventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/model/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/model/Permission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/repository/PermissionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/repository/PermissionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/services/LoginAttemptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/services/LoginAttemptService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/test/java/com/arquitetura/auth/AuthServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/test/java/com/arquitetura/auth/AuthServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dblogger-service/src/main/java/com/arquitetura/dblogger/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/dblogger-service/src/main/java/com/arquitetura/dblogger/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dblogger-service/src/main/java/com/arquitetura/dblogger/model/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/dblogger-service/src/main/java/com/arquitetura/dblogger/model/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dblogger-service/src/main/java/com/arquitetura/dblogger/security/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/dblogger-service/src/main/java/com/arquitetura/dblogger/security/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dblogger-service/src/main/java/com/arquitetura/dblogger/service/AplicacaoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dblogger-service/src/main/java/com/arquitetura/dblogger/service/AplicacaoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dblogger-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dblogger-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,6 +73,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -56,15 +89,18 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/handle" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.arquitetura.auth.endpoint" />
     </key>
@@ -84,7 +120,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DiscoveryServiceApplication">
+  <component name="RunManager" selected="Spring Boot.AuthServiceApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApplicationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="application-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.arquitetura.aplicacao.ApplicationServiceApplication" />
@@ -92,9 +141,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="auth" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.arquitetura.auth.AuthApplication" />
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="auth-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arquitetura.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.arquitetura.auth.AuthServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,12 +184,17 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.DiscoveryServiceApplication" />
-      <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.ApplicationServiceApplication" />
-      <item itemvalue="Spring Boot.AuthApplication" />
       <item itemvalue="Spring Boot.ConfigsServiceApplication" />
       <item itemvalue="Spring Boot.DbloggerServiceApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.AuthServiceApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AuthServiceApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -147,12 +207,23 @@
       <workItem from="1602803781178" duration="2458000" />
       <workItem from="1602807845897" duration="3366000" />
       <workItem from="1602851838021" duration="1317000" />
-      <workItem from="1602887013271" duration="648000" />
+      <workItem from="1602887013271" duration="3723000" />
+      <workItem from="1602892837349" duration="7026000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -167,26 +238,28 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2155" y="180" width="800" height="671" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602809717063">
-      <screen x="1600" y="0" width="1920" height="1080" />
+    <state x="463" y="150" width="960" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602899118286">
+      <screen x="0" y="0" width="1600" height="900" />
     </state>
+    <state x="463" y="150" width="960" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog/1600.0.1920.1080/0.0.1600.900@0.0.1600.900" timestamp="1602899118286" />
     <state x="2155" y="180" width="800" height="671" key="#com.intellij.execution.impl.EditConfigurationsDialog/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1602809717063" />
     <state x="551" y="234" width="488" height="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602805490203">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="551" y="234" width="488" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1602805490203" />
-    <state x="244" y="356" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602804661617">
+    <state x="244" y="356" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602888178661">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="244" y="356" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1602804661617" />
+    <state x="244" y="356" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1602888178661" />
     <state x="563" y="313" width="564" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1602804670954">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="563" y="313" width="564" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1600.860@0.0.1600.860" timestamp="1602804670954" />
-    <state x="103" y="0" width="1374" height="854" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602804689460">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="103" y="0" width="1374" height="854" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602895577678">
+      <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="103" y="0" width="1374" height="854" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1602804689460" />
+    <state x="103" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1600.0.1920.1080/0.0.1600.900@0.0.1600.900" timestamp="1602895577678" />
     <state x="2318" y="266" key="#xdebugger.evaluate" timestamp="1602820064960">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
@@ -195,58 +268,62 @@
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state width="512" height="465" key="DebuggerActiveHint/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1602819823548" />
+    <state x="100" y="99" width="1400" height="700" key="DiffContextDialog" timestamp="1602896250794">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="100" y="99" width="1400" height="700" key="DiffContextDialog/1600.0.1920.1080/0.0.1600.900@0.0.1600.900" timestamp="1602896250794" />
     <state x="578" y="138" width="424" height="569" key="FileChooserDialogImpl" timestamp="1602803842990">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="578" y="138" width="424" height="569" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1602803842990" />
-    <state width="1070" height="293" key="GridCell.Tab.0.bottom" timestamp="1602887352142">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1294" height="348" key="GridCell.Tab.0.bottom" timestamp="1602899540961">
+      <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1070" height="293" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1602887352142" />
-    <state width="1070" height="284" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.0.1600.900@0.0.1600.900" timestamp="1602809232424" />
-    <state width="1294" height="284" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1602820103679" />
-    <state width="1070" height="293" key="GridCell.Tab.0.center" timestamp="1602887352141">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1070" height="293" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1602891506605" />
+    <state width="1070" height="348" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.0.1600.900@0.0.1600.900" timestamp="1602899163034" />
+    <state width="1294" height="348" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1602899540961" />
+    <state width="1294" height="348" key="GridCell.Tab.0.center" timestamp="1602899540961">
+      <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1070" height="293" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1602887352141" />
-    <state width="1070" height="284" key="GridCell.Tab.0.center/1600.0.1920.1080/0.0.1600.900@0.0.1600.900" timestamp="1602809232423" />
-    <state width="1294" height="284" key="GridCell.Tab.0.center/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1602820103679" />
-    <state width="1070" height="293" key="GridCell.Tab.0.left" timestamp="1602887352140">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1070" height="293" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1602891506604" />
+    <state width="1070" height="348" key="GridCell.Tab.0.center/1600.0.1920.1080/0.0.1600.900@0.0.1600.900" timestamp="1602899163034" />
+    <state width="1294" height="348" key="GridCell.Tab.0.center/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1602899540961" />
+    <state width="1294" height="348" key="GridCell.Tab.0.left" timestamp="1602899540948">
+      <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1070" height="293" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1602887352140" />
-    <state width="1070" height="284" key="GridCell.Tab.0.left/1600.0.1920.1080/0.0.1600.900@0.0.1600.900" timestamp="1602809232423" />
-    <state width="1294" height="284" key="GridCell.Tab.0.left/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1602820103679" />
-    <state width="1070" height="293" key="GridCell.Tab.0.right" timestamp="1602887352141">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1070" height="293" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1602891506603" />
+    <state width="1070" height="348" key="GridCell.Tab.0.left/1600.0.1920.1080/0.0.1600.900@0.0.1600.900" timestamp="1602899163034" />
+    <state width="1294" height="348" key="GridCell.Tab.0.left/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1602899540948" />
+    <state width="1294" height="348" key="GridCell.Tab.0.right" timestamp="1602899540961">
+      <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1070" height="293" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1602887352141" />
-    <state width="1070" height="284" key="GridCell.Tab.0.right/1600.0.1920.1080/0.0.1600.900@0.0.1600.900" timestamp="1602809232423" />
-    <state width="1294" height="284" key="GridCell.Tab.0.right/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1602820103679" />
-    <state width="1070" height="293" key="GridCell.Tab.1.bottom" timestamp="1602887352144">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1070" height="293" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1602891506605" />
+    <state width="1070" height="348" key="GridCell.Tab.0.right/1600.0.1920.1080/0.0.1600.900@0.0.1600.900" timestamp="1602899163034" />
+    <state width="1294" height="348" key="GridCell.Tab.0.right/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1602899540961" />
+    <state width="1294" height="348" key="GridCell.Tab.1.bottom" timestamp="1602899540962">
+      <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1070" height="293" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1602887352144" />
-    <state width="1070" height="284" key="GridCell.Tab.1.bottom/1600.0.1920.1080/0.0.1600.900@0.0.1600.900" timestamp="1602809232430" />
-    <state width="1294" height="284" key="GridCell.Tab.1.bottom/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1602820103679" />
-    <state width="1070" height="293" key="GridCell.Tab.1.center" timestamp="1602887352143">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1070" height="293" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1602891506606" />
+    <state width="1070" height="348" key="GridCell.Tab.1.bottom/1600.0.1920.1080/0.0.1600.900@0.0.1600.900" timestamp="1602899163034" />
+    <state width="1294" height="348" key="GridCell.Tab.1.bottom/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1602899540962" />
+    <state width="1294" height="348" key="GridCell.Tab.1.center" timestamp="1602899540961">
+      <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1070" height="293" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1602887352143" />
-    <state width="1070" height="284" key="GridCell.Tab.1.center/1600.0.1920.1080/0.0.1600.900@0.0.1600.900" timestamp="1602809232424" />
-    <state width="1294" height="284" key="GridCell.Tab.1.center/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1602820103679" />
-    <state width="1070" height="293" key="GridCell.Tab.1.left" timestamp="1602887352142">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1070" height="293" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1602891506605" />
+    <state width="1070" height="348" key="GridCell.Tab.1.center/1600.0.1920.1080/0.0.1600.900@0.0.1600.900" timestamp="1602899163034" />
+    <state width="1294" height="348" key="GridCell.Tab.1.center/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1602899540961" />
+    <state width="1294" height="348" key="GridCell.Tab.1.left" timestamp="1602899540961">
+      <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1070" height="293" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1602887352142" />
-    <state width="1070" height="284" key="GridCell.Tab.1.left/1600.0.1920.1080/0.0.1600.900@0.0.1600.900" timestamp="1602809232424" />
-    <state width="1294" height="284" key="GridCell.Tab.1.left/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1602820103679" />
-    <state width="1070" height="293" key="GridCell.Tab.1.right" timestamp="1602887352143">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1070" height="293" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1602891506605" />
+    <state width="1070" height="348" key="GridCell.Tab.1.left/1600.0.1920.1080/0.0.1600.900@0.0.1600.900" timestamp="1602899163034" />
+    <state width="1294" height="348" key="GridCell.Tab.1.left/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1602899540961" />
+    <state width="1294" height="348" key="GridCell.Tab.1.right" timestamp="1602899540961">
+      <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1070" height="293" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1602887352143" />
-    <state width="1070" height="284" key="GridCell.Tab.1.right/1600.0.1920.1080/0.0.1600.900@0.0.1600.900" timestamp="1602809232424" />
-    <state width="1294" height="284" key="GridCell.Tab.1.right/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1602820103679" />
+    <state width="1070" height="293" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1602891506605" />
+    <state width="1070" height="348" key="GridCell.Tab.1.right/1600.0.1920.1080/0.0.1600.900@0.0.1600.900" timestamp="1602899163034" />
+    <state width="1294" height="348" key="GridCell.Tab.1.right/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1602899540961" />
     <state width="1294" height="284" key="GridCell.Tab.2.bottom" timestamp="1602820100063">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
@@ -267,38 +344,52 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="433" y="174" width="713" height="497" key="NewModule_or_Project.wizard/0.0.1600.860@0.0.1600.860" timestamp="1602803844965" />
-    <state x="1940" y="0" width="1229" height="1040" key="SettingsEditor" timestamp="1602853734264">
+    <state x="1940" y="0" width="1229" height="900" key="SettingsEditor" timestamp="1602899289285">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="283" y="6" width="1024" height="839" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1602803846789" />
-    <state x="1940" y="0" width="1229" height="1040" key="SettingsEditor/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1602853734264" />
+    <state x="283" y="6" width="1024" height="839" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1602889482289" />
+    <state x="283" y="0" width="1229" height="900" key="SettingsEditor/1600.0.1920.1080/0.0.1600.900@0.0.1600.900" timestamp="1602898651657" />
+    <state x="1940" y="0" width="1229" height="1040" key="SettingsEditor/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1602899289285" />
     <state x="1700" y="99" width="1720" height="840" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1602812934469">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="1700" y="99" width="1720" height="840" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1602812934469" />
+    <state x="506" y="178" width="617" height="502" key="find.popup" timestamp="1602887945973">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="506" y="178" width="617" height="502" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1602887945973" />
+    <state x="463" y="193" width="672" height="678" key="search.everywhere.popup" timestamp="1602898146756">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="463" y="193" width="672" height="678" key="search.everywhere.popup/1600.0.1920.1080/0.0.1600.900@0.0.1600.900" timestamp="1602898146756" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/auth/src/main/java/com/arquitetura/auth/config/RestResponseEntityExceptionHandler.java</url>
+          <url>file://$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/handle/RestResponseEntityExceptionHandler.java</url>
           <line>23</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/auth/src/main/java/com/arquitetura/auth/services/UserService.java</url>
+          <url>file://$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/services/UserService.java</url>
           <line>30</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/auth/src/main/java/com/arquitetura/auth/config/AuthenticationFailureListener.java</url>
+          <url>file://$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/listner/AuthenticationFailureListener.java</url>
           <line>18</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/auth/src/main/java/com/arquitetura/auth/services/UserService.java</url>
-          <line>43</line>
+          <url>file://$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/services/UserService.java</url>
+          <line>42</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/auth-service/src/main/java/com/arquitetura/auth/handle/RestResponseEntityExceptionHandler.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

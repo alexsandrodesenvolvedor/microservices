@@ -1,8 +1,8 @@
 package com.arquitetura.auth.endpoint.dto;
 
-import java.io.Serializable;
+import lombok.Data;
 
-import lombok.*;
+import java.io.Serializable;
 
 /**
  * @author alexsandro

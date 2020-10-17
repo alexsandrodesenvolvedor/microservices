@@ -2,6 +2,8 @@ spring.jpa.hibernate.ddl-auto: update
 
 server:
   port: 8083
+  servlet:
+    context-path: /dblogger
 spring:
   main:
     allow-bean-definition-overriding: true

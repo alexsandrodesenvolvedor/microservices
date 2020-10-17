@@ -13,12 +13,12 @@
     <description>Projeto com uma arquitetura de microervicos ao meu jeito</description>
 
     <modules>
-        <module>dblogger-service</module>
-        <module>discovery-service</module>
         <module>gateway</module>
-        <module>application-service</module>
-        <module>auth</module>
         <module>configs-service</module>
+        <module>discovery-service</module>
+        <module>auth-service</module>
+        <module>dblogger-service</module>
+        <module>application-service</module>
     </modules>
 
 </project>

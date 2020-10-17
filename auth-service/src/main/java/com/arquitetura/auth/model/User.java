@@ -1,15 +1,14 @@
 package com.arquitetura.auth.model;
 
+import lombok.Data;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
+
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-
-import javax.persistence.*;
-
-import lombok.*;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.userdetails.UserDetails;
 
 @Data
 @Entity
@@ -23,10 +22,10 @@ public class User implements UserDetails, Serializable {
     @SequenceGenerator(name = "SEclQ_USER", sequenceName = "SEQ_USER", allocationSize = 1)
     private Long id;
 
-    @Column(name = "username")
+    @Column(name = "username", length = 30, nullable = false)
     private String userName;
 
-    @Column(name = "password")
+    @Column(name = "password", length = 100 ,nullable = false)
     private String password;
 
     @Column(name = "accountNonExpired")

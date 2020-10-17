@@ -1,8 +1,7 @@
 package com.arquitetura.auth.endpoint.controller;
 
-import java.util.HashMap;
-import java.util.Map;
-
+import com.arquitetura.auth.endpoint.dto.UserDTO;
+import com.arquitetura.auth.jwt.JwtTokenProvider;
 import com.arquitetura.auth.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -16,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.arquitetura.auth.jwt.JwtTokenProvider;
-import com.arquitetura.auth.endpoint.dto.UserDTO;
+import java.util.HashMap;
+import java.util.Map;
 
 import static org.springframework.http.ResponseEntity.ok;
 
@@ -52,8 +51,8 @@ public class AuthController {
             var user = userRepository.findByUserName(username);
             var token = "";
 
-            if (user != null) {
-                token = jwtTokenProvider.createToken(username, user.getRoles());
+            if (user.isPresent()) {
+                token = jwtTokenProvider.createToken(username, user.get().getRoles());
             } else {
                 throw new UsernameNotFoundException("User name not found");
             }

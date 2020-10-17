@@ -1,4 +1,4 @@
-package com.arquitetura.auth.config;
+package com.arquitetura.auth.listner;
 
 import com.arquitetura.auth.services.LoginAttemptService;
 import lombok.RequiredArgsConstructor;

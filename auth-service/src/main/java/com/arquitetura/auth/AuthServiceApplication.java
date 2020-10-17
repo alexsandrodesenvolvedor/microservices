@@ -13,6 +13,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 import java.util.Arrays;
+import java.util.Optional;
 
 @SpringBootApplication
 @EnableDiscoveryClient
@@ -32,11 +33,10 @@ public class AuthApplication {
 		return args -> {
 			initUsers(userRepository, permissionRepository, passwordEncoder);
 		};
-
 	}
 
 	private void initUsers(UserRepository userRepository, PermissionRepository permissionRepository, PasswordEncoder passwordEncoder) {
-		Permission permission = null;
+		Permission permission;
 		Permission findPermission = permissionRepository.findByDescription("Admin");
 		if (findPermission == null) {
 			permission = new Permission();
@@ -55,8 +55,8 @@ public class AuthApplication {
 		admin.setPassword(passwordEncoder.encode("12345678"));
 		admin.setPermissions(Arrays.asList(permission));
 
-		User find = userRepository.findByUserName("sistema");
-		if (find == null) {
+		Optional<User> user = userRepository.findByUserName("sistema");
+		if (!user.isPresent()) {
 			userRepository.save(admin);
 		}
 	}
